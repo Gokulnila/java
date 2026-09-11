@@ -39,6 +39,7 @@ class Atm
       select = s.next();
 
   }
+   s.close();
 
   
       System.out.println(" Thank you for using the Atm:") ; 
